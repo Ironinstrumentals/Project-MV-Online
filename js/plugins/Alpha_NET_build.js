@@ -10925,7 +10925,7 @@ Window_Selectable.prototype.isNetworkShared = function () {
     '\x20on\x20MV\x20',
     'initialize',
     'initManager',
-    '<font\x20color=\x22blue\x22>Welcome\x20to\x20Alpha.NET\x20Beta</font><br><font\x20size=\x222\x22>F6\x20-\x20Start<br>\x20F7\x20-\x20Connect<br>\x20F9\x20-\x20Disconnect\x20<br>\x20F11\x20-\x20Another\x20Window</font>',
+    '',
     'clear',
     '_onKeyDown',
     'call',
