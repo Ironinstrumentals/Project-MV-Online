@@ -2,6 +2,6 @@
 null,
 {"id":1,"list":[{"code":101,"indent":0,"parameters":["",0,0,1]},{"code":401,"indent":0,"parameters":["Server IP:"]},{"code":401,"indent":0,"parameters":["76.27.83.54"]},{"code":0,"indent":0,"parameters":[]}],"name":"Server-IP","switchId":1,"trigger":0},
 {"id":2,"list":[{"code":102,"indent":0,"parameters":[["Connect","ReSync","Cancel"],2,0,2,0]},{"code":402,"indent":0,"parameters":[0,"Connect"]},{"code":356,"indent":1,"parameters":["NET connect"]},{"code":0,"indent":1,"parameters":[]},{"code":402,"indent":0,"parameters":[1,"ReSync"]},{"code":356,"indent":1,"parameters":["NET sync"]},{"code":0,"indent":1,"parameters":[]},{"code":402,"indent":0,"parameters":[2,"Cancel"]},{"code":0,"indent":1,"parameters":[]},{"code":404,"indent":0,"parameters":[]},{"code":0,"indent":0,"parameters":[]}],"name":"Multiplayer","switchId":1,"trigger":0},
-{"id":3,"list":[{"code":0,"indent":0,"parameters":[]}],"name":"","switchId":1,"trigger":0},
+{"id":3,"list":[{"code":356,"indent":0,"parameters":["NET sync"]},{"code":0,"indent":0,"parameters":[]}],"name":"Sync","switchId":1,"trigger":0},
 {"id":4,"list":[{"code":0,"indent":0,"parameters":[]}],"name":"","switchId":1,"trigger":0}
 ]
