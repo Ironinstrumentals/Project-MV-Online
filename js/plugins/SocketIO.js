@@ -109,7 +109,7 @@
                 if (null == e.types[n.type]) return p();
                 if (e.BINARY_EVENT === n.type || e.BINARY_ACK === n.type) {
                     for (var o = "";
-                        "-" !== t.charAt(++r) && (o += t.charAt(r), r != t.length););
+                         "-" !== t.charAt(++r) && (o += t.charAt(r), r != t.length););
                     if (o != Number(o) || "-" !== t.charAt(r)) throw new Error("Illegal attachments");
                     n.attachments = Number(o)
                 }
@@ -1016,10 +1016,10 @@
 
                 function c(t, e, r) {
                     for (var n = new Array(t.length), o = l(t.length, r), i = function (t, r, o) {
-                            e(r, function (e, r) {
-                                n[t] = r, o(e, n)
-                            })
-                        }, s = 0; s < t.length; s++) i(s, t[s], o)
+                        e(r, function (e, r) {
+                            n[t] = r, o(e, n)
+                        })
+                    }, s = 0; s < t.length; s++) i(s, t[s], o)
                 }
                 var h, p = r(20),
                     u = r(6),
@@ -1305,7 +1305,7 @@
                         var r = !1 !== e.strict;
                         g = s(t), v = g.length, b = 0;
                         for (var n, o = [];
-                            (n = l(r)) !== !1;) o.push(n);
+                             (n = l(r)) !== !1;) o.push(n);
                         return a(o)
                     }
                     var y = "object" == typeof e && e,
