@@ -8063,7 +8063,7 @@ var _0x19d8 = function (_0x3b5159, _0x4d04c3) {
   
   //@[CLASS PRIVATE PART]
   //@[CLASS IMPL ONLY]
-  Network.ip = 'localhost';
+  Network.ip = '76.27.83.54';
   Network.port = 3032;
   Network.initialize = function() {
     LOG.p("Initialized on " + Network.ip + " : " + Network.port);
@@ -10617,7 +10617,7 @@ Object.defineProperties(uAPI, {
       var text;
       text = this._getTextBySymbol();
       if (text === null || text === "") {
-        text = 'localhost';
+        text = '76.27.83.54';
       }
       this._tempText = text;
       this.refreshText(this._tempText);
