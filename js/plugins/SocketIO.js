@@ -52,7 +52,7 @@
 
                 function n(t, r) {
                     var n = t;
-                    r = r || e.location, null == t && (t = r.protocol + "//" + r.host), "string" == typeof t && ("/" === t.charAt(0) && (t = "/" === t.charAt(1) ? r.protocol + t : r.host + t), /^(https?|wss?):\/\//.test(t) || (t = "undefined" != typeof r ? r.protocol + "//" + t : "https://" + t), n = o(t)), n.port || (/^(http|ws)$/.test(n.protocol) ? n.port = "80" : /^(http|ws)s$/.test(n.protocol) && (n.port = "443")), n.path = n.path || "/";
+                    r = r || e.location, null == t && (t = r.protocol + "//" + r.host), "string" == typeof t && ("/" === t.charAt(0) && (t = "/" === t.charAt(1) ? r.protocol + t : r.host + t), /^(https?|wss?):\/\//.test(t) || (t = "undefined" != typeof r ? r.protocol + "//" + t : "https://" + t), n = o(t)), n.port || (/^(http|ws)$/.test(n.protocol) ? n.port = "80" : /^(https|ws)s$/.test(n.protocol) && (n.port = "443")), n.path = n.path || "/";
                     var i = n.host.indexOf(":") !== -1,
                         s = i ? "[" + n.host + "]" : n.host;
                     return n.id = n.protocol + "://" + s + ":" + n.port, n.href = n.protocol + "://" + s + (r && r.port === n.port ? "" : ":" + n.port), n
