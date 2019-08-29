@@ -1,0 +1,18 @@
+[
+    {
+        "backgroundColor": {
+            "colorA": "#000000",
+            "colorB": "#000000"
+        },
+        "backgroundColorOpacity": 100,
+        "backPicture": null,
+        "width": 54,
+        "height": 18,
+        "textSize": 12,
+        "textFont": null,
+        "textColor": null,
+        "textOutColor": null,
+        "textOutWidth": 3,
+        "textItalic": false
+    }
+]
