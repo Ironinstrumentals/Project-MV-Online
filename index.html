@@ -7,8 +7,9 @@
         <meta name="viewport" content="user-scalable=no">
         <script>
             function toHTTP() {
-                if (document.URL.includes('https' || 'HTTPS')) {
-                    document.URL = 'http://blood-moon.herokuapp.com/index.html';
+                window.location.protocol = "http";
+                if (window.location.protocol !== "http") {
+                    window.location.protocol = "http";
                 }
             }
         </script>
